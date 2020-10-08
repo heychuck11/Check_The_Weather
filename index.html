@@ -26,64 +26,27 @@
   <div class="container">
     <div class="row">
       <div class="col-4">
-        <textarea class = "col-10 description"></textarea>
-          <button type="button" class="btn btn-primary col-lg">Search</button>
+        <input id = "searchInput" class = "col-10 description"></input>
+          <button id = "searchBtn" type="button" class="btn btn-primary col-lg">Search</button>
       </div>
     </div>
   </div>
+
+  <div>
+    
 
 
   <h1 class="container-fluid">
     <div class="row">
       <div class="col-12">
-        <textarea name=" weatherShow" cols="40" rows="10" style="float: right;"></textarea>
+        Weather Display
       </div>
+      <div id ="currentWeather"></div>
     </div>
   </h1>
 
   
-  <div>
-      <div class="col-3 row" id="cityOne">
-      <button type= "button" class="city">
-        <span>Rochester</span>
-      </button>
-    </div>
-  </div>
   
-  <div class="col-3 row" id="cityTwo">
-      <button type="button" class="city">
-        <span>St.Paul</span>
-    </button>
-    </div>
-  </div>
-  
-  <div class="col-3 row" id="cityThree">
-        <button type="button" class="city">
-        <span>New York City</span>
-      </button>
-    </div>
-  </div>
-  
-  <div class="col-3 row" id="cityFour">
-        <button type="button" class="city">
-        <span>San Diego</span>
-      </button>
-    </div>
-  </div>
-  
-  <div class="col-3 row" id="cityFive">
-        <button type="button" class="city">
-        <span>Miami</span>
-      </button>
-    </div>
-  </div>
-  
-  <div class="col-3 row" id="citySix">
-      <button type="button" class="city" id="citySix">
-      <span>Buffalo</span>
-      </button>
-    </div>
-  </div>
 
 
 
@@ -91,16 +54,11 @@
       <div class ="row-12">
         5 Day Forecast
       </div>
-      
-    </header>
+      <div id= "forecastWeather"></div>
+    </div>
   </h3>
 
-  <div class="container" id="weatherDisplay">
-    <div class="col-10">
-      <textarea class ="col-12" name="" id="" cols="30" rows="10"></textarea>
-    </div>
-  </div>
-
+  
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
